@@ -86,17 +86,17 @@ const App = () => {
 
     if (command.includes("what is your name")) {
       const response =
-        "Hello Sir I'm Friday, Your voice assistant created by Web Dev Mastery";
+        "Hello Sir I'm isha, Your voice assistant created by Web Dev Mastery";
       speakText(response);
       setInformation(response);
       return;
-    } else if (command.includes("hello friday")) {
-      const response = "Hello Sir I'm Friday, How can i help you";
+    } else if (command.includes("hello isha")) {
+      const response = "Hello Sir I'm isha, How can i help you";
       speakText(response);
       setInformation(response);
       return;
     } else if (command.includes("what is your age")) {
-      const response = "Hello Sir I'm Friday, I'm 2 day old";
+      const response = "Hello Sir I'm isha, I'm 2 day old";
       speakText(response);
       setInformation(response);
       return;
