@@ -179,7 +179,7 @@ const App = () => {
     <div>
       <div className="voice-assistant">
         <img src={img} alt="AI" className="ai-image" />
-        <h2>Voice Assistant (Friday)</h2>
+        <h2>Voice Assistant</h2>
 
         <button className="btn" onClick={startListening} disabled={isListening}>
           <i className="fas fa-microphone"></i>
